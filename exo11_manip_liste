@@ -1,0 +1,18 @@
+# noms = ["bob", "alice", "carole", "daniel", "edgar"]
+
+#expected = ["BOB", "ECILA", "ELORAC", "LEINAD", "RAGDE"]
+
+#def dothething(names: list) -> list:
+#    return []
+
+noms = ["bob", "alice", "carole", "daniel", "edgar"]
+def dothething(names: list) -> list:
+
+    expected = []
+    for name in names:
+        majuscule = name.upper() #transformer en majuscules
+        inverse = majuscule[::-1] #inverser le nom
+        expected.append(inverse) 
+
+    return expected
+print(dothething(noms))

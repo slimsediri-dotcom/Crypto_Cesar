@@ -1,0 +1,14 @@
+notes = [20, 14, 12]
+
+# Dicitonnaire
+
+coord = { 
+    "latitude": 0.5678548, 
+    "longitude": 1.48564568 
+}
+
+contact = {
+    "prenom": "julien",
+    "nom": "oppliger",
+    "tel": "0032 2 452 487 45"
+}
